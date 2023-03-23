@@ -1,0 +1,288 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1{
+    font-size: 40px;
+    font-family: 'Rowdies', cursive;
+    margin-top: 10px;
+}
+
+
+.seccion-oscura{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+
+.seccion-titulo{
+    font-size: 35px;
+    padding: 0px;
+    font-family: 'Rowdies', cursive;
+}
+
+
+.seccion-texto{
+    font-size: 17px;
+}
+
+
+.navbar{
+    padding: 15px;
+    background-color:black;
+    color: white;
+}
+
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.imagenLNB {
+    border-radius: 25%;
+}
+
+
+.acerca-de-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.acerca-de-mi .seccion-texto{
+    margin-bottom: 25px;
+}
+
+
+.acerca-de-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+
+.principal{
+    padding: 20px;
+}
+
+
+.portada{
+    background-color: #E0E2DB;
+    min-height: 450px;
+    text-align: center;
+}
+
+
+.imagenJuan{
+    width: 260px;
+    height: 200px;
+    border-radius: 20%;
+    margin: 50px;
+}
+
+
+.principal h2{
+    
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+     margin-bottom: 200px;
+}
+
+
+.experiencia{
+padding: 40px 40px 60px 40px;
+}
+
+
+.experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+.experiencia i{
+    font-size: 35px;
+    color: white;
+    background-color:#FF36AB;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+
+.formacion-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+.idiomas-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+.experiencia .columna{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.certificados{
+    padding: 40px 40px 80px 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #E0E2DB;
+}
+
+.certificados h2{
+    margin-bottom: 35px;
+}
+
+
+.certificados .carousel{
+    max-width: 800px;
+}
+
+
+.carousel-item{
+    height: 600px;
+}
+
+
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+
+.contacto .rectangulo{
+    margin-top: -100px;
+    background-color: #FF36AB;
+    border-radius:10px;
+}
+
+
+.contacto .div1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.contacto .descripcion{
+    color:white;
+    font-size: 20px;
+}
+
+
+.contacto button{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    border: 5px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.contacto button:hover{
+    background-color: white;
+    color: gray;
+}
+
+
+.contacto button i {
+    color: white;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.contacto button:hover i{
+    color:gray;
+}
+
+
+footer{
+    min-height: 500px;
+}
+
+
+.footer-logo {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+
+.footer-texto{
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 20px;
+    transition: all 0.2s ease-in;
+}
+
+
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 3px solid #FF36AB;
+}
+
+
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+
+
+.div1{
+    margin-top: 13px;
+}
